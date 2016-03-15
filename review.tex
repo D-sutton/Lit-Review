@@ -1,0 +1,108 @@
+\documentclass[12pt]{report}
+\usepackage{graphicx} % Required for including pictures
+\usepackage{wrapfig} % Allows in-line images
+\usepackage{natbib}
+\usepackage{fullpage}
+\usepackage{afterpage}
+
+\usepackage{sectsty} %this is a separate package you can download to make it prettier
+\allsectionsfont{\mdseries\textsf} %defines the section font
+\subsectionfont{\mdseries\textsf} %defintes the subsection font
+\usepackage[Lenny]{fncychap} %This is for pretty chapter headings
+%\usepackage[small,sc]{caption} %alters you captions (here all in small caps, for example)
+%\usepackage{fancyhdr} %makes it prettier; download separately. Commands below relate to it
+%\pagestyle{fancy}
+%\usepackage{times}
+\makeatletter
+\renewcommand\@biblabel[1]{\textbf{#1.}} % Change the square brackets for each bibliography item from '[1]' to '1.'
+\renewcommand{\@listI}{\itemsep=0pt} % Reduce the space between items in the itemize and enumerate environments and the bibliography
+%\rfoot{\thepage} %make the page number appear on the right, but strangely does not remove the normal pagenumber
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\thispagestyle{empty}
+\begin{center}
+\vspace{1cm}
+\Huge{}\\
+\vspace{2cm}
+\Large{}\\
+\vspace{2cm} % stands for vertical space. Fiddle with as needed
+\large{
+Lit Review Draft\\
+1}\\
+\vspace{1cm}
+\Large{School of Physics}\\
+\large{University of Melbourne}\\
+\vspace{.5cm}
+%\includegraphics[width = 0.4\textwidth]{figures/Logos/logo.jpg}\\
+\vspace{1cm}
+\Large{}\\
+\vspace{1.cm}
+\normalsize
+\\
+\end{center}
+
+\tableofcontents
+
+\newpage
+
+%\topskip0pt
+\vspace*{\fill}
+\section*{}
+
+
+\section*{}
+\vspace*{\fill}
+\chapter{Drafts}
+Do chapters like so belong in a lit review?
+\section{Inflation}
+Cosmic inflation is a key piece in Big Bang cosmology. It is widely accepted for its ability to explain cosmological observations and experimental successes.
+\\\\
+Cosmic inflation is defined as a period prior to the Big Bang when the scale factor of the Universe grew exponentially. It was first proposed by Guth in 1981 as a means to explain outstanding problems in cosmology. In this section I will explain each of these problems and how inflation solves them. Finally I will explain how my research relates to cosmic inflation
+
+\subsection{The Flatness Problem}
+If space is expanding as the Friedmann equation describes then any deviation from flatness in the early Universe would have grown by many orders of magnitude and today the Universe would be very far from flatness, however current observations have the Universe as approximately flat. This seems to suggest that the Universe was somehow finely tuned to being almost perfectly flat early on. Cosmologists had no explanationf or this and so it became known as the "Flatness Problem".
+\\\\
+Inflation explains this by sidestepping the issue of the initial conditions of the Universe. Before inflation the Universe can have significant curvature but after the process, the Universe becomes so large that all places in the Universe start to appear as locally flat, which would explain why we observe the Universe to be approximately flat.
+
+\subsection{The Horizon Problem}
+If we use the Friendmann equation to trace back the growth of the density perturbations which gave rise to the large scale structure we see today, we find that at some point the perturbations were outside of the horizon and hence not causally connected. Similarly if we look out at the CMB, we note that it is all the same temperature to within 10\textsuperscript{-4}K, however it is clear that not all of the sky has been in causal contact with each other the whole time, so how did the CMB and these perturbations know to choose the state they did to become so homogeneous?
+\\\\
+Inflation has all the Universe start within the same horizon, all in causal contact with itself. Once the exponential growth begins, the Universe grows exponentially and the horizon remains constant. In this time the contents of the Universe - including the perturbations get pushed out of the horizon and many small horizons are said to exist. Once inflation ends the horizon resumes expansion, faster than the Universe grows and over time perturbations re-enter our horizon, having grown into the galaxies we see today.
+
+\subsection{The Relic Problem}
+Grand Unified Theories that try to understand the behaviour of the Universe before the Big Bang predict the existence of topological defects such as cosmic strings and magnetic monopoles, however we don't see any.
+\\\\
+Inflation solves this by having the Universe grow so large that the number density of such relics tends to about one per horizon, which makes it unlikely we'd ever see one in nature.
+
+\section{Tests of Inflation}
+There are four observational tests of cosmic inflation.
+\begin{itemize}
+\item Flatness - Since inflation predicts flatness, if the Universe is flat, then there is evidence for the validity of the theory
+\item Scale invariance of the primordial power spectrum
+\item CMB temperature distribution - Inflation predicts that it is a guassian. Non-gaussianity would serve to falsify inflation
+\item Gravity Wave Backgroud - Inflation predicts a background of gravity waves caused by the event. They would manifest themselves as polarisation anisotropies in the CMB.
+\end{itemize}
+
+The first three tests of Inflation are so far in good agreement with the theory.The last test is still underway. My research will help in detecting these anisotropies. A detection of the primordial gravity wave background would not only help verify inflation but also narrow down which model of inflation fits best with new energy constraints on the theory.
+
+To Be Continued
+
+
+\chapter{The Fisher Information Matrix}
+
+
+\\\\
+\\\\
+\\\\
+
+
+\nocite{*}
+
+\bibliographystyle{fapj}
+\bibliography{mybib}
+
+
+\twocolumn
+
+\end{verbatim}
+\end{document}
